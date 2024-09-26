@@ -3,7 +3,7 @@ import { AvailableForWork } from "./AvailableForWork";
 export const Hero = () => {
   return (
     <section id="/" className="bg-white dark:bg-gray-900 min-h-screen pt-20">
-      <div className="max-w-screen-xl h-full px-4 py-8 mx-auto lg:py-16 lg:grid lg:grid-cols-12">
+      <div className="max-w-screen-xl h-full px-4 py-8 mx-auto lg:py-12 lg:grid lg:grid-cols-12 lg:gap-8">
         
         {/* Image for small screens */}
         <div className="flex justify-center mb-6 lg:hidden">
@@ -14,7 +14,7 @@ export const Hero = () => {
           />
         </div>
 
-        <div className="lg:col-span-7 flex flex-col justify-center">
+        <div className="lg:col-span-7 flex flex-col justify-center lg:pr-12">
           <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             I’m Venu Kumar.
           </h1>
@@ -57,7 +57,7 @@ export const Hero = () => {
         </div>
 
         {/* Image on the right side for large screens */}
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center">
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
           <img
             src="hero.jpg"
             alt="Venu Kumar"
