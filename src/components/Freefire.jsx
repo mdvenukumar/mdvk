@@ -22,7 +22,7 @@ export const Freefire = () => {
                   { value: "38.06%", label: "HeadShot Rate" },
                 ].map((stat, index) => (
                   <div className="flex flex-col items-center transition-transform transform hover:scale-105" key={index}>
-                    <span className="text-5xl text-gray-200">{stat.value}</span>
+                    <span className="text-4xl text-gray-200">{stat.value}</span>
                     <span className="text-sm sm:text-lg font-semibold text-gray-400 mt-2">{stat.label}</span>
                   </div>
                 ))}
