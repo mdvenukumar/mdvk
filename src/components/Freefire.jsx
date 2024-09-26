@@ -1,12 +1,12 @@
 export const Freefire = () => {
   return (
-    <section className="bg-gray-900 dark:bg-white pt-20 py-12 px-4 sm:py-16 sm:px-6 lg:py-24 min-h-screen flex items-center justify-center">
+    <section className="bg-gray-900 dark:bg-white flex items-center justify-center min-h-screen pt-0">
       <div className="max-w-7xl w-full">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-900 mb-8">
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-900 mb-4">
           I do Beyond Coding 😜
         </h2>
         <div className="bg-gray-800 dark:bg-white rounded-lg shadow-2xl overflow-hidden">
-          <div className="flex flex-col">
+          <div className="flex flex-col"> 
             {/* Content Section */}
             <div className="p-6 sm:p-8 flex flex-col justify-between">
               <div>
