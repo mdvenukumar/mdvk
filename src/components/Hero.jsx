@@ -1,7 +1,7 @@
 import {AvailableForWork} from "./AvailableForWork"
 export const Hero = () => {
   return (
-    <section id="/" className="bg-white dark:bg-gray-900 pt-24 pb-8 lg:py-24">
+    <section id="/" className="bg-gray-900 pt-24 pb-8 lg:py-24">
       {/* Updated pt-24 to add padding */}
       <div className="max-w-screen-xl px-4 mx-auto lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center">
         
@@ -15,22 +15,22 @@ export const Hero = () => {
         </div>
 
         <div className="lg:col-span-7 flex flex-col justify-center">
-          <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
             I’m Venu Kumar.
           </h1>
-          <p className="mt-2 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="mt-2 max-w-2xl mb-6 font-semibold text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             Merging Generative AI with Full Stack Development to create innovative solutions for today’s challenges.
           </p>
 
           {/* Personalized content reflecting your identity */}
-          <div className="p-4 max-w-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg">
+          <div className="p-4 max-w-lg bg-gray-800 border border-gray-700 rounded-lg shadow-lg">
             <div className="mb-2">
               <AvailableForWork />
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+            <h2 className="text-2xl font-bold text-white">
               Innovator & Problem Solver
             </h2>
-            <p className="mt-2 text-gray-600 dark:text-gray-400">
+            <p className="mt-2 text-gray-400">
               I leverage technology to create impactful solutions, turning complex challenges into opportunities for growth.
             </p>
           </div>
@@ -49,7 +49,7 @@ export const Hero = () => {
               href="https://flowcv.com/resume/3l4btriiws"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center rounded-lg focus:ring-4 text-white border border-white hover:bg-gray-700 focus:ring-gray-800"
             >
               Download My Resume
             </a>

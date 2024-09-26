@@ -41,9 +41,9 @@ export const Project = () => {
   ];
 
   return (
-    <section id="projects" className="bg-gray-50 dark:bg-gray-900 py-16 px-6">
+    <section id="projects" className="bg-gray-900 py-16 px-6">
       <div className="max-w-screen-xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
+        <h2 className="text-3xl font-bold text-white mb-8">
           My Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

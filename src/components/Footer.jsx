@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-ic
 
 export const Footer = () => {
   return (
-    <footer id="contact" className="bg-gray-100 dark:bg-gray-900 px-6">
+    <footer id="contact" className="bg-gray-900 px-6">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left Section: Contact Info and Additional Content */}
@@ -10,10 +10,10 @@ export const Footer = () => {
           
           {/* Collaboration Message */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            <h3 className="text-2xl font-bold text-white mb-4">
               Open for Collabs & Works
             </h3>
-            <p className="text-md text-gray-600 dark:text-gray-400">
+            <p className="text-md text-gray-400">
               I am always excited to collaborate and work on innovative AI and tech projects. Feel free to get in touch!
             </p>
           </div>
