@@ -1,16 +1,16 @@
 export const Freefire = () => {
   return (
-    <section className="bg-gray-900 dark:bg-white flex items-center justify-center min-h-screen md:min-h-[50vh] pt-0 pb-0">
+    <section className="bg-gray-900 dark:bg-gray-900 flex items-center justify-center min-h-screen md:min-h-[50vh] pt-0 pb-0">
       <div className="max-w-7xl w-full">
-        <h2 className="text-3xl font-bold text-gray-200 dark:text-gray-900 mb-4">
+        <h2 className="text-5xl font-bold text-gray-200 dark:text-white mb-4">
           I do Beyond Coding 😜
         </h2>
-        <div className="bg-gray-800 dark:bg-gray-100 rounded-lg shadow-2xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-100 rounded-lg shadow-2xl overflow-hidden">
           <div className="flex flex-col"> 
             {/* Content Section */}
             <div className="p-6 sm:p-8 flex flex-col justify-between">
               <div>
-                <h1 className="text-4xl sm:text-5xl font-bold text-[#f4f4f4] dark:text-gray-900 mb-2 shadow-md">
+                <h1 className="text-3xl sm:text-5xl font-bold text-[#f4f4f4] dark:text-gray-900 mb-2">
                   My Style of Resting
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-300 dark:text-gray-700 mb-4">
