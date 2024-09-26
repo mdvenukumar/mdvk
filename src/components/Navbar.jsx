@@ -16,10 +16,10 @@ export const Navbar = () => {
 
           {/* Navigation Links */}
           <div className="flex flex-row items-center space-x-4">
-            <a href="#aboutme" className="text-black font-semibold hover:text-gray-700 transition-colors duration-300">About</a>
-            <a href="#skills" className="text-black font-semibold hover:text-gray-700 transition-colors duration-300">Skills</a>
-            <a href="#projects" className="text-black font-semibold hover:text-gray-700 transition-colors duration-300">Projects</a>
-            <a href="#contact" className="text-black font-semibold hover:text-gray-700 transition-colors duration-300">Contact</a>
+            <a href="#aboutme" className="text-white font-semibold hover:text-gray-200 transition-colors duration-300">About</a>
+            <a href="#skills" className="text-white font-semibold hover:text-gray-200 transition-colors duration-300">Skills</a>
+            <a href="#projects" className="text-white font-semibold hover:text-gray-200 transition-colors duration-300">Projects</a>
+            <a href="#contact" className="text-white font-semibold hover:text-gray-200 transition-colors duration-300">Contact</a>
           </div>
         </div>
       </nav>
