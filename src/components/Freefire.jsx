@@ -1,6 +1,6 @@
 export const Freefire = () => {
   return (
-    <section className="bg-gray-900 dark:bg-white flex items-center justify-center min-h-screen pt-0 pb-0">
+    <section className="bg-gray-900 dark:bg-white flex items-center justify-center min-h-screen md:min-h-[50vh] pt-0 pb-0">
       <div className="max-w-7xl w-full">
         <h2 className="text-3xl font-bold text-gray-200 dark:text-gray-900 mb-4">
           I do Beyond Coding 😜
